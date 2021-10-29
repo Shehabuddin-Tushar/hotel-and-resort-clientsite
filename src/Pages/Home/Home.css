@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+.home-banner{
+    background:url("https://i.postimg.cc/Yqyqnm3p/bannerimage.jpg");
+    height: 450px;
+    background-size: 100% 100%;
+    padding: 10% 20% 20% 20%;
+   
+    
+}
+
+.transbox{
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 20px;
+  
+}
+.home-banner h2,h1,p{
+    text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+    opacity: 1;
+}
+.our-zone{
+    padding:50px;
+    text-align: center;
+    display: flex;
+}
+
+.single-zone{
+    text-align: center;
+    margin-right: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: .5s;
+   
+}
+
+.single-zone img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border:8px solid rgb(243, 76, 76);
+    margin-bottom: 10px;
+}
+
+.single-zone p{
+    text-align: justify;
+}
+
+.single-zone:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.services{
+    padding: 20px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.single-service{
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.single-service a{
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(243, 76, 76);
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color:#fff;
+    transition: .5s;
+
+}
+.single-service img{
+    border: 3px solid rgb(243, 76, 76);
+    border-radius: 5px;
+    height: 270px;
+}
+.single-service a:hover{
+    color:#000;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.single-service:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .our-zone{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .single-zone{
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+       
+    }
+
+    .services{
+        padding: 20px 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
