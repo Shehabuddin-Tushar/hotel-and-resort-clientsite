@@ -80,5 +80,9 @@
     .footer{
         display: block;
     
-    }  
+    } 
+    
+    .recognitoin-image img{
+        width: 100px;
+    }
 }

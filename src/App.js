@@ -12,6 +12,7 @@ import {Redirect} from 'react-router-dom'
 import Footer from './shared/Footer/Footer';
 import Myorders from './Pages/Myorders/Myorders';
 import Manageallbooking from './Pages/Manageallbooking/Manageallbooking';
+import Addnewservice from './Pages/Addnewservice/Addnewservice';
 function App() {
   const {user}=useFirebase();
   return (
@@ -40,6 +41,10 @@ function App() {
 
             <Privateroute path="/managebooking">
                  <Manageallbooking/>
+            </Privateroute>
+
+            <Privateroute path="/addnewservice">
+                 <Addnewservice/>
             </Privateroute>
 
             <Route path="/login">
