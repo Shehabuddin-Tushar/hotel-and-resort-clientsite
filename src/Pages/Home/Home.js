@@ -7,7 +7,7 @@ function Home() {
 
     useEffect(()=>{
 
-         fetch("http://localhost:5000/services").then(res=>res.json()).then(data=>setServices(data))
+         fetch("https://quiet-sierra-01767.herokuapp.com/services").then(res=>res.json()).then(data=>setServices(data))
 
     },[])
     return (

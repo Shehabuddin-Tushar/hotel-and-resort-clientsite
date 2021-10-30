@@ -16,7 +16,7 @@ function Bookingdetails() {
         }else{
 
         
-         axios.post("http://localhost:5000/bookingadd",data)
+         axios.post("https://quiet-sierra-01767.herokuapp.com/bookingadd",data)
          .then(res=>{
             toast(res.data);
             reset();
@@ -29,7 +29,7 @@ function Bookingdetails() {
 
     useEffect(()=>{
             
-        axios.get(`http://localhost:5000/databyid/${id}`)
+        axios.get(`https://quiet-sierra-01767.herokuapp.com/databyid/${id}`)
         .then(res=>setBookingitem(res.data)).catch(err=>console.log(err))
 
         

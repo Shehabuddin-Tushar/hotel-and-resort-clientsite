@@ -9,7 +9,7 @@ function Myorders() {
     const [mybooking,setMybooking]=useState([]);
     const {user}=useAuth();
     useEffect(()=>{
-           axios.get(`http://localhost:5000/myorders?search=${user.email}`).then(res=>setMybooking(res.data)).catch(err=>console.log(err))
+           axios.get(`https://quiet-sierra-01767.herokuapp.com/myorders?search=${user.email}`).then(res=>setMybooking(res.data)).catch(err=>console.log(err))
 
     },[mybooking])
 
@@ -18,7 +18,7 @@ function Myorders() {
         if(confirmation===false){
              return
         }else{
-            axios.delete(`http://localhost:5000/deletebooking/${id}`)
+            axios.delete(`https://quiet-sierra-01767.herokuapp.com/deletebooking/${id}`)
             .then(res=>{
                 toast("Booking deleted successfully");
                 if(res.deletedCount>0){
