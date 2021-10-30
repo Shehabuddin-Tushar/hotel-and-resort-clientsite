@@ -49,7 +49,7 @@ function Bookingdetails() {
                       {bookingitem.img && <input type="hidden" placeholder="booking image" {...register("image")} value={bookingitem.img}/>}
                       {bookingitem.name && <input type="text" placeholder="booking place" {...register("bookingplace")} value={bookingitem.name}/>}
 
-                      <input type="hidden" placeholder="status" {...register("status")} value="pending"/>
+                      <input type="hidden" placeholder="status" {...register("status")} value="Pending"/>
                       <input type="submit"/>
                   </form>
             </div>

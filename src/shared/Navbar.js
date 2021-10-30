@@ -34,8 +34,8 @@ function Navbar() {
                     <div className="hidden md:flex items-center space-x-1">
                         <NavLink exact to="/"  className="py-5 px-3 text-white hover:text-gray-900">Home</NavLink>
                         <NavLink to="/myorders" className="py-5 px-3 text-white hover:text-gray-900">Myorders</NavLink>
-                        <NavLink to="/dashboard" className="py-5 px-3 text-white hover:text-gray-900">Dashboard</NavLink>
-                        
+                        <NavLink to="/managebooking" className="py-5 px-3 text-white hover:text-gray-900">Manage all Booking</NavLink>
+                        <NavLink to="/addnewservice" className="py-5 px-3 text-white hover:text-gray-900">Add new service</NavLink>
                     </div>
                 </div>
 
@@ -64,8 +64,8 @@ function Navbar() {
             <div className={`mobile-menu ${mobilebtn}  md:hidden`}>
                 <NavLink exact to="/" className="block py-2 px-4 text-sm hover:bg-gray-200">Home</NavLink>
                 <NavLink to="/myorders" className="block py-2 px-4 text-sm hover:bg-gray-200">Myorders</NavLink>
-                <NavLink to="/dashboard" className="block py-2 px-4 text-sm hover:bg-gray-200">Dashboard</NavLink>
-                
+                <NavLink to="/managebooking" className="block py-2 px-4 text-sm hover:bg-gray-200">Manage all Booking</NavLink>
+                <NavLink to="/addnewservice" className="block py-2 px-4 text-sm hover:bg-gray-200">Add new service</NavLink>
                 
             </div>
             </nav>              

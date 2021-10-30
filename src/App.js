@@ -11,6 +11,7 @@ import useFirebase from './hooks/Firebasehook';
 import {Redirect} from 'react-router-dom'
 import Footer from './shared/Footer/Footer';
 import Myorders from './Pages/Myorders/Myorders';
+import Manageallbooking from './Pages/Manageallbooking/Manageallbooking';
 function App() {
   const {user}=useFirebase();
   return (
@@ -35,6 +36,10 @@ function App() {
 
             <Privateroute path="/myorders">
                  <Myorders/>
+            </Privateroute>
+
+            <Privateroute path="/managebooking">
+                 <Manageallbooking/>
             </Privateroute>
 
             <Route path="/login">

@@ -1,0 +1,63 @@
+.manage-wrapper{
+    padding-top: 100px;
+    height: 100vh;
+  
+}
+
+.all-booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 200px;
+  
+}
+
+.all-booking td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+.all-booking tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .all-booking .btn-primary{
+      background-color: rgb(56, 56, 187);
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: bold;
+      color:#fff
+  }
+
+  .all-booking .btn-danger{
+    background-color: rgb(224, 76, 76);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff
+}
+
+@media only screen and (max-width: 600px) {
+    .all-booking{
+        
+        padding: 0px 0px;
+      
+    }
+
+    .all-booking .btn-primary{
+     
+        font-size: 12px;
+        
+    }
+  
+    .all-booking .btn-danger{
+      
+      font-size: 12px;
+      
+  }
+
+
+}
