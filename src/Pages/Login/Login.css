@@ -10,7 +10,7 @@
 
 .login-content{
     width: 500px;
-  
+    margin-bottom: 50px;
     height: 400px;
     display: flex;
     flex-direction: column;

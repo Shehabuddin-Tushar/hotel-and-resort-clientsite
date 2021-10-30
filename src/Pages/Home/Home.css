@@ -95,6 +95,28 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+.blog-wrapper{
+    padding: 20px 150px;
+}
+
+.blog-wrapper h1{
+    margin-bottom: 70px;
+}
+
+.single-blog{
+    display: flex;
+    margin-bottom: 30px;
+}
+.single-blog img{
+    width: 50%;
+  
+    border:5px solid rgb(243, 76, 76);
+}
+
+.blog-content{
+    margin-left: 30px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .our-zone{
@@ -114,6 +136,27 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    
+        .blog-wrapper{
+            padding: 20px 20px;
+        }
+
+    .single-blog{
+      
+        flex-direction: column;
+        
+    }
+
+    .single-blog img{
+        width: 100%;
+      
+    }
+    .blog-content{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
 
 }
 

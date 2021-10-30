@@ -9,6 +9,8 @@ import Login from './Pages/Login/Login';
 import Authprovider from './hooks/Context';
 import useFirebase from './hooks/Firebasehook';
 import {Redirect} from 'react-router-dom'
+import Footer from './shared/Footer/Footer';
+import Myorders from './Pages/Myorders/Myorders';
 function App() {
   const {user}=useFirebase();
   return (
@@ -31,10 +33,15 @@ function App() {
                  <Bookingdetails/>
             </Privateroute>
 
+            <Privateroute path="/myorders">
+                 <Myorders/>
+            </Privateroute>
+
             <Route path="/login">
                {user.emailVerified ? <Redirect to="/home" /> : <Login/>}
             </Route>
          </Switch>
+         <Footer/>
        </BrowserRouter>
 
        </Authprovider>

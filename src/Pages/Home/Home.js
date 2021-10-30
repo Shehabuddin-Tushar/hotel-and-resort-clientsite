@@ -43,7 +43,7 @@ function Home() {
             <div className="services-wrapper">
                 <div className="service-headding flex flex-col justify-center items-center text-center" style={{padding:"2% 20%"}}>
                       <h2 className="text-4xl font-bold mb-3">i-Land services</h2>
-                      <p>i-Land in collaboration with various hotels have introduced goSafe Hotels,
+                      <p style={{textShadow:"none"}}>i-Land in collaboration with various hotels have introduced goSafe Hotels,
                          a collection of well sanitized hotels with trained staff who follow safe
                          Practices at all times. These hotels have a Safe and Hygienic environment 
                          with daily disinfection of rooms, fresh room.</p>
@@ -63,9 +63,51 @@ function Home() {
 
                         })
                     }
-                    
+                </div>
 
-                    
+                <div className="blog-wrapper">
+                    <h1 className="text-4xl font-bold text-center">Recent Blog post</h1>
+                    <div className="single-blog">
+                       <img src="https://i.postimg.cc/RZ6CjVsw/blogimageone.jpg"/>
+                       <div className="blog-content">
+                            <h2 className="text-3xl font-bold text-red-400 mb-5">Travel with confidence</h2>
+                            <p style={{textShadow:"none",textAlign:"justify"}}>For most travel planning, the best overall strategy is to compare prices from multiple
+                               sources including the hotel’s own website, as it will sometimes offer deals not shared
+                               with third-party sites, or offer the same rates as third-party sites minus pesky booking
+                               fees. Hotels sites will also offer package deals—bundled amenity inclusions and the
+                               like—that aren’t shared with third-party siteFor most travel planning, the best overall strategy is to compare prices from multiple
+                               sources including the hotel’s own website, as it will sometimes offer deals not shared
+                               with third-party sites, or offer the same rates as third-party sites minus pesky booking
+                               fees. Hotels sites will also offer package deals—bundled amenity inclusions and the
+                               like—that aren’t shared with third-party site website, as it will sometimes offer deals not shared
+                               with third-party sites, or offer the same rates as third-party sites minus pesky booking
+                               fees. Hotels sites will also offer package deals—bundled amenity inclusions and the
+                               like—that aren’t shared with third-party site</p>
+                               
+                       </div>
+                    </div>
+
+
+                    <div className="single-blog">
+                       <img src="https://i.postimg.cc/ZYHqNQvv/blogimagetwo.jpg"/>
+                       <div className="blog-content">
+                            <h2 className="text-3xl font-bold text-red-400 mb-5">We do more than just hotels</h2>
+                            <p style={{textShadow:"none",textAlign:"justify"}}>Travel planning, the best overall strategy is to compare prices from multiple
+                               sources including the hotel’s own website, as it will sometimes offer deals not shared
+                               with third-party sites, or offer the same rates as third-party sites minus pesky booking
+                               fees. Hotels sites will also offer package deals—bundled amenity inclusions and the
+                               like—that aren’t shared with third-party siteFor most travel planning, the best overall strategy is to compare prices from multiple
+                               sources including the hotel’s own website, as it will sometimes offer deals not shared
+                               with third-party sites, or offer the same rates as third-party sites minus pesky booking
+                               fees. Hotels sites will also offer package deals—bundled amenity inclusions and the
+                               like—that aren’t shared with third-party site website, as it will sometimes offer deals not shared
+                               with third-party sites, or offer the same rates as third-party sites minus pesky booking
+                               fees. Hotels sites will also offer package deals—bundled amenity inclusions and the
+                               like—that aren’t shared with third-party site</p>
+                               
+                       </div>
+                       
+                    </div>
                 </div>
             </div>
              
