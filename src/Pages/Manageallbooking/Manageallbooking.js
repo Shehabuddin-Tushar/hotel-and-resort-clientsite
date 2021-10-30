@@ -4,9 +4,9 @@ import './Manageallbooking.css'
 function Manageallbooking() {
 
     const [allbooking,setAllbooking]=useState([]);
-    const [status,setStatus]=useState();
+    
     useEffect(()=>{
-         axios.get("http://localhost:5000/allbookingitems").then(res=>setAllbooking(res.data)).catch(err=>console.log(err))
+         axios.get("https://quiet-sierra-01767.herokuapp.com/allbookingitems").then(res=>setAllbooking(res.data)).catch(err=>console.log(err))
 
     },[allbooking]);
 
@@ -15,7 +15,7 @@ function Manageallbooking() {
         if(confirmation===false){
              return
         }else{
-             axios.get(`http://localhost:5000/mystatuschange/${id}`)
+             axios.get(`https://quiet-sierra-01767.herokuapp.com/mystatuschange/${id}`)
                .then(res=>res).catch(err=>console.log(err))
              }
          
