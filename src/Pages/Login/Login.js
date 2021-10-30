@@ -20,6 +20,7 @@ function Login() {
      }
     return (
         <div className="login-wrapper">
+            <title>Login</title>
            <div className="login-content">
               <h1 className="text-4xl font-bold mb-5">Login with</h1>
                 <div className="login" onClick={handlegooglelogin}>

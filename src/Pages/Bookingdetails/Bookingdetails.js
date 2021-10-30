@@ -36,6 +36,7 @@ function Bookingdetails() {
     },[]);
     return (
         <div className="bookingdetails-wrapper">
+            <title>Booking details</title>
             <ToastContainer />
             <div className="booking-form">
                   <h2 className="md:text-4xl text-2xl font-bold mb-3 text-red-400" style={{textShadow:"2px 4px 3px rgba(0,0,0,0.3)"}}>Booking form</h2>

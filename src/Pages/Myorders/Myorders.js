@@ -35,7 +35,7 @@ function Myorders() {
     }
     return (
         <div className="myorders-wrapper">
-           
+           <title>Myorders</title>
             <h1 className="text-4xl font-bold text-center">Your Booking Details</h1>
             
             <div className="services">

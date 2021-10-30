@@ -42,6 +42,7 @@ function Manageallbooking() {
      }
     return (
         <div className="manage-wrapper">
+            <title>Manage all booking</title>
             <ToastContainer/>
              <h2 className="text-4xl font-bold text-center mb-5">Manage all Booking</h2>
              <div className="all-booking">

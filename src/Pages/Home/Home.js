@@ -11,7 +11,9 @@ function Home() {
 
     },[])
     return (
+        
         <div className="home-wrapper" style={{paddingTop:"70px"}}>
+            <title>Home</title>
             <div className="home-banner">
                 <div className="transbox  flex flex-col justify-center items-center">
                   <h2 className="text-4xl  font-bold text-green-500 mb-2">Welcome To</h2>
