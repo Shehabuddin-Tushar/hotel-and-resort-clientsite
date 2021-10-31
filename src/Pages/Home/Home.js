@@ -14,6 +14,7 @@ function Home() {
         
         <div className="home-wrapper" style={{paddingTop:"70px"}}>
             <title>Home</title>
+             {/* this is banner part start */}
             <div className="home-banner">
                 <div className="transbox  flex flex-col justify-center items-center">
                   <h2 className="text-4xl  font-bold text-green-500 mb-2">Welcome To</h2>
@@ -21,7 +22,9 @@ function Home() {
                   <p className="text-xl text-white font-bold">Universal's Loews Sapphire Falls Resort offers Early Park AdmissionƗ to The Wizarding World of Harry Potter™ and Universal's Volcano Bay water theme park 1 hour before park opening.</p>
                 </div>
             </div>
+            {/* this is banner part end */}
 
+            {/* this is zone part start its for bonus part*/}
             <div className="our-zone">
                  <div className="single-zone">
                       <img src="https://i.postimg.cc/9FfQYBy8/adventure.jpg"/>
@@ -41,7 +44,8 @@ function Home() {
                       <p>This Orlando hotel is situated on 28 tropical acres, next to SeaWorld. The hotel offers several on-site dining options. The Orange County Convention Center is a 6 minutes' drive away.</p>
                  </div>
             </div>
-
+          {/* zone part end */}
+          {/* this is service part start */}
             <div className="services-wrapper">
                 <div className="service-headding flex flex-col justify-center items-center text-center" style={{padding:"2% 20%"}}>
                       <h2 className="text-4xl font-bold mb-3">i-Land services</h2>
@@ -66,7 +70,9 @@ function Home() {
                         })
                     }
                 </div>
+            {/* this is service part end */}
 
+            {/* this is blog part start its for bonus  part */}
                 <div className="blog-wrapper">
                     <h1 className="text-4xl font-bold text-center">Recent Blog post</h1>
                     <div className="single-blog">
@@ -111,6 +117,7 @@ function Home() {
                        
                     </div>
                 </div>
+                {/* this is blog part end */}
             </div>
              
         </div>
