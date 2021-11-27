@@ -4,7 +4,7 @@ This project was Tailwind ui with [React js](https://i-land-booking-authanticati
 
 ### `This is a Hotel & resort booking site`
 
-  1. this website for Booking services
+  1. this website for Booking services.User Can choose, Cancel the Booking through the website.
   2. you can come this site for hotel & resort booking
   3. You can contact with us from this website contact information
   4. You can see our services form Home page
